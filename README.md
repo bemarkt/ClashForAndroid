@@ -1,61 +1,33 @@
 ## Clash for Android
 
-A GUI for [clash](https://github.com/Dreamacro/clash) on Android
+A Graphical user interface of [clash](https://github.com/Dreamacro/clash) for Android
 
-> NOTICE: Early testing currently
-
-
+<a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a> or [Releases](https://github.com/Kr328/ClashForAndroid/releases)
 
 ### Feature
 
-Fully feature of [clash](https://github.com/Dreamacro/clash) ~~(Exclude `external-controller`~~
-
+Fully feature of [Clash Premium](https://github.com/Dreamacro/clash/releases)
 
 
 ### Requirement
 
 * Android 7.0+
-* `arm64` or `x86_64` architecture
+* `armeabi-v7a` , `arm64-v8a`, `x86` or `x86_64` Architecture
+
+
+### 3rd Part License
+
+See also [NOTICE](./NOTICE)
 
 
 
-### License
+###  Privacy Policy
 
-See also [LICENSE](./LICENSE) and [NOTICE](./NOTICE)
+See also [PRIVACY_POLICY.md](./PRIVACY_POLICY.md)
 
 
 
-### Build
+### NOTICE
 
-1. Update submodules
+**Clash for Android** now uses **closed-source** upstream branches. According to the upstream license agreement, Clash for Android also needs to **close source**.
 
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-2. Install `Android SDK` ,`Android NDK` and `Golang`
-
-3. Configure `local.properties` 
-
-   ```properties
-   sdk.dir=/path/to/android-sdk
-   ndk.dir=/path/to/android-ndk
-   ```
-
-4. Get `google-service.json` from [Firebase](https://firebase.google.com) and copy it to `app/google-service.json`
-
-5. Build
-
-   on Linux
-
-   ```bash
-   ./gradlew build
-   ```
-
-   on Windows
-
-   ```bash
-   .\gradlew.bat build
-   ```
-
-   
